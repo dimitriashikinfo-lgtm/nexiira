@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Used Laptops UAE, SA, Qatar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #f8f9fa;
+            color: #333;
+        }
+        header {
+            background: #007BFF;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 5px;
+        }
+        header p {
+            font-size: 1.1rem;
+        }
+        nav {
+            text-align: center;
+            background: #fff;
+            padding: 15px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            color: #0056b3;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 30px auto;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 25px;
+            color: #007BFF;
+        }
+        .laptop-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .laptop-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .laptop-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+        .laptop-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+        .laptop-card-content {
+            padding: 15px;
+            text-align: center;
+        }
+        .laptop-card-content h3 {
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+        }
+        .laptop-card-content p {
+            color: #555;
+            margin-bottom: 5px;
+        }
+        .laptop-card-content .price {
+            color: #28a745;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+        footer {
+            background: #343a40;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+        @media(max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            .laptop-card img {
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Used Laptops for Sale</h1>
+        <p>UAE, Saudi Arabia & Qatar</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#laptops">Laptops</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container" id="laptops">
+        <h2>Available Laptops</h2>
+        <div class="laptop-grid">
+            <div class="laptop-card">
+                <img src="https://via.placeholder.com/300x180.png?text=Dell+Latitude+7490" alt="Dell Latitude 7490">
+                <div class="laptop-card-content">
+                    <h3>Dell Latitude 7490</h3>
+                    <p class="price">AED 1,200</p>
+                    <p>Location: UAE</p>
+                    <p>Used, Good Condition</p>
+                </div>
+            </div>
+            <div class="laptop-card">
+                <img src="https://via.placeholder.com/300x180.png?text=HP+EliteBook+840" alt="HP EliteBook 840">
+                <div class="laptop-card-content">
+                    <h3>HP EliteBook 840</h3>
+                    <p class="price">AED 1,100</p>
+                    <p>Location: Saudi Arabia</p>
+                    <p>Used, Excellent Condition</p>
+                </div>
+            </div>
+            <div class="laptop-card">
+                <img src="https://via.placeholder.com/300x180.png?text=Lenovo+ThinkPad+X1" alt="Lenovo ThinkPad X1">
+                <div class="laptop-card-content">
+                    <h3>Lenovo ThinkPad X1</h3>
+                    <p class="price">AED 1,500</p>
+                    <p>Location: Qatar</p>
+                    <p>Used, Like New</p>
+                </div>
+            </div>
+            <!-- আরও ল্যাপটপ এখানে যোগ করতে পারো -->
+        </div>
+    </div>
+
+    <div class="container" id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@usedlaptops.com</p>
+        <p>Phone: +971 50 123 4567</p>
+        <p>WhatsApp: +971 50 123 4567</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Used Laptops UAE, SA, Qatar. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
